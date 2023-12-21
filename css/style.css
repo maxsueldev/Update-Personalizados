@@ -98,7 +98,6 @@ body .footer p {
 body .footer .contact {
   display: var(--display-flex);
   align-items: var(--align-center);
-  margin: 4px 0;
 }
 body .footer .contact p {
   line-height: 1rem;
