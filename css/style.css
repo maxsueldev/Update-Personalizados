@@ -40,7 +40,7 @@ body .intro-container {
   align-items: var(--align-center);
 }
 body .intro-container h1.boas-vindas {
-  font-size: 1.7rem;
+  font-size: 1.75rem;
   position: absolute;
   text-align: center;
 }
@@ -74,6 +74,7 @@ body .sobre-nos {
   /* height: 50%; */
   background-color: var(--color-vermelho);
   color: var(--color-branco);
+  padding: 40px 50px;
   border: 1px solid red;
 }
 body .sobre-nos h1 {
@@ -81,9 +82,9 @@ body .sobre-nos h1 {
 }
 body .sobre-nos p {
   font-family: sans-serif;
-  line-height: 1.7rem;
-  letter-spacing: 2px;
-  padding: 20px 80px;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  padding: 0 15px;
 }
 body .footer {
   background-color: var(--color-branco);
