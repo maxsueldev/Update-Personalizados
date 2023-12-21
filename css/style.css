@@ -39,8 +39,8 @@ body .intro-container {
   justify-content: var(--justify-center);
   align-items: var(--align-center);
 }
-body .intro-container .boas-vindas {
-  font-size: 1.4rem;
+body .intro-container h1.boas-vindas {
+  font-size: 1.7rem;
   position: absolute;
   text-align: center;
 }
