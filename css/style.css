@@ -75,7 +75,6 @@ body .sobre-nos {
   background-color: var(--color-vermelho);
   color: var(--color-branco);
   padding: 40px 50px;
-  border: 1px solid red;
 }
 body .sobre-nos h1 {
   margin-bottom: 10px;
@@ -83,17 +82,26 @@ body .sobre-nos h1 {
 body .sobre-nos p {
   font-family: sans-serif;
   font-size: 0.8rem;
-  line-height: 1.3rem;
-  padding: 0 15px;
+  line-height: 1.2rem;
+  letter-spacing: 1px;
+  padding: 15px 0px;
 }
 body .footer {
   background-color: var(--color-branco);
   display: var(--display-flex);
   align-items: var(--align-center);
+  padding: 30px;
+}
+body .footer p {
+  font-size: 0.9rem;
 }
 body .footer .contact {
   display: var(--display-flex);
   align-items: var(--align-center);
+  margin: 4px 0;
+}
+body .footer .contact p {
+  line-height: 1rem;
 }
 body .footer .contact .icon {
   width: 6%;
