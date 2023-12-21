@@ -51,11 +51,11 @@ body .intro-container .home-banner-video {
 }
 body .exibicao-canecas {
   background-color: var(--color-branco);
-  padding: 20px 0 40px 0;
+  padding: 20px 0;
 }
 body .exibicao-canecas p {
   text-align: right;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   letter-spacing: 0.2px;
   padding-right: 75px;
 }
@@ -100,7 +100,6 @@ body .footer p {
 body .footer .contact {
   display: var(--display-flex);
   align-items: var(--align-center);
-  margin: 6px 0;
 }
 body .footer .contact p {
   font-size: 1rem;
