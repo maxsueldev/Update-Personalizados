@@ -35,14 +35,15 @@ body {
     font-family: var(--font-family1);
 
     .intro-container {
-        width: 100vw;
+        width: 100vw; 
         // height: 250px;
         color: var(--color-branco);
         display: var(--display-flex);
-        // justify-content: var(--justify-center);
+        justify-content: var(--justify-center);
         align-items: var(--align-center);
         
         .boas-vindas {
+            font-size: 1.4rem;
             position: absolute;
             text-align: center;
         }
@@ -56,14 +57,14 @@ body {
 
     .exibicao-canecas {
         background-color: var(--color-branco);
-        padding: 70px 0 20px 0;
+        padding: 20px 0 10px 0;
         
         p {
             text-align: right;
-            font-size: .8rem;
+            font-size: .7rem;
             letter-spacing: .2px;
-            padding-top: 20px;
-            // padding-right: 200px;
+            // padding-top: 20px;
+            padding-right: 75px;
         }
 
         .canecas-container {
@@ -72,9 +73,9 @@ body {
             flex-direction: column;
             justify-content: space-between;
             align-items: var(--align-center);
-            padding: 0 200px;
-            // border: 1px solid blue;
+            padding: 20px 0px;
             .caneca-natal {
+                // border: 2px solid blue;
                 width: 240px;
             }
         }
