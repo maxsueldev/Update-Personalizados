@@ -3,6 +3,8 @@
     --color-branco: #f5f5f5;
     --color-vermelho: #8a1c15;
     --display-flex: flex;
+    --align-center: center;
+    --justify-center: center;
 }
 
 @font-face {
@@ -17,7 +19,8 @@
 }
 
 h1 {
-    font-size: 2.6rem;
+    font-size: 1.6rem;
+    // font-size: 2.6rem;
 }
 
 p {
@@ -36,9 +39,9 @@ body {
         // height: 250px;
         color: var(--color-branco);
         display: var(--display-flex);
-        justify-content: center;
-        align-items: center;
-                
+        // justify-content: var(--justify-center);
+        align-items: var(--align-center);
+        
         .boas-vindas {
             position: absolute;
             text-align: center;
@@ -53,8 +56,8 @@ body {
 
     .exibicao-canecas {
         background-color: var(--color-branco);
-        padding: 70px 10px 20px 10px;
-
+        padding: 70px 0 20px 0;
+        
         p {
             text-align: right;
             font-size: .8rem;
@@ -66,11 +69,13 @@ body {
         .canecas-container {
             /* height: 52%; */
             display: var(--display-flex);
+            flex-direction: column;
             justify-content: space-between;
-            align-items: center;
+            align-items: var(--align-center);
             padding: 0 200px;
+            // border: 1px solid blue;
             .caneca-natal {
-                width: 25%; 
+                width: 240px;
             }
         }
     }
@@ -79,7 +84,9 @@ body {
         /* height: 50%; */
         background-color: var(--color-vermelho);
         color: var(--color-branco);
-        padding: 60px 210px;
+        // padding: 60px 210px;
+        border: 1px solid red;
+
         h1 {
             margin-bottom: 10px;
         }
@@ -93,13 +100,13 @@ body {
     }
     .footer {
         background-color: var(--color-branco);
-        display: flex;
-        align-items: center;
-        padding: 20px 210px;
+        display: var(--display-flex);
+        align-items: var(--align-center);
+        // padding: 20px 210px;
         
         .contact {
-            display: flex;
-            align-items: center;
+            display: var(--display-flex);
+            align-items: var(--align-center);
             // border: 1px solid red;
             .icon {
                 width: 6%;
