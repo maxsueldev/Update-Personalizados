@@ -74,7 +74,7 @@ body .sobre-nos {
   /* height: 50%; */
   background-color: var(--color-vermelho);
   color: var(--color-branco);
-  padding: 40px;
+  padding: 40px 50px;
 }
 body .sobre-nos h1 {
   margin-bottom: 10px;
@@ -84,6 +84,7 @@ body .sobre-nos p {
   font-size: 0.8rem;
   line-height: 1.2rem;
   letter-spacing: 1px;
+  padding: 10px 0;
 }
 body .footer {
   background-color: var(--color-branco);

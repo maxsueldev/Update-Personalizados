@@ -85,7 +85,7 @@ body {
         /* height: 50%; */
         background-color: var(--color-vermelho);
         color: var(--color-branco);
-        padding: 40px;
+        padding: 40px 50px;
         // border: 1px solid red;
 
         h1 {
@@ -97,6 +97,7 @@ body {
             font-size: 0.8rem;
             line-height: 1.2rem;
             letter-spacing: 1px;
+            padding: 10px 0;
         }
     }
     .footer {
