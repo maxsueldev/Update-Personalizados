@@ -222,7 +222,7 @@ body .sobre-nos {
 }
 @media (min-width: 1040px) {
   body .sobre-nos {
-    padding: 140px 0;
+    padding: 80px 110px;
   }
 }
 body .sobre-nos h1 {
@@ -233,7 +233,7 @@ body .sobre-nos h1 {
 @media (min-width: 1040px) {
   body .sobre-nos h1 {
     font-size: 3.8rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 3rem;
   }
 }
 body .sobre-nos p {
@@ -241,36 +241,47 @@ body .sobre-nos p {
   font-size: 1.1rem;
   line-height: 1.6rem;
   letter-spacing: 1px;
-  padding: 10px 20px;
 }
 @media (min-width: 834px) {
   body .sobre-nos p {
     font-size: 1.4rem;
-    text-align: center;
-    line-height: 0.6rem;
+    line-height: 1.9rem;
   }
 }
 @media (min-width: 1040px) {
   body .sobre-nos p {
-    font-size: 2rem;
-    line-height: 1.6rem;
+    font-size: 1.7rem;
+    line-height: 3rem;
   }
-}
-body .sobre-nos .icon {
-  width: 14%;
-  height: 2%;
-}
-body .sobre-nos .icon-location {
-  width: 9%;
 }
 body .sobre-nos .sobre-nos-itens {
   display: flex;
 }
 body .sobre-nos .sobre-nos-itens p {
-  padding: 10px 10px;
+  padding: 10px;
+}
+@media (min-width: 834px) {
+  body .sobre-nos .sobre-nos-itens p {
+    padding: 10px 30px;
+  }
+}
+body .sobre-nos .sobre-nos-itens .icon {
+  width: 40px;
+  height: 40px;
+}
+@media (min-width: 834px) {
+  body .sobre-nos .sobre-nos-itens .icon {
+    width: 60px;
+    height: 60px;
+  }
 }
 body .sobre-nos .sobre-nos-location p {
   padding-left: 22px;
+}
+@media (min-width: 834px) {
+  body .sobre-nos .sobre-nos-location p {
+    padding: 10px 38px;
+  }
 }
 body .footer {
   background-color: var(--color-branco);
