@@ -18,27 +18,57 @@
 
     <title>Update Personalizados</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header class="intro intro-container">
         <video class="home-banner-video" loop muted autoplay>
-            <source type="video/mp4" src="https://new.express.adobe.com/static/holiday-home-banner.f67499e50c5517eb8909.mp4"> 
+            <source type="video/mp4" src="video/holiday-home.mp4"> 
         </video>
         <h1 class="boas-vindas">Update Personalizados</h1>    
     </header> 
     <section class="exibicao-canecas">
-        <div class="canecas-container">
-            <img class="caneca-natal" src="images/caneca-natal01.png" alt="Mockup de Caneca de Natal">
-            <img class="caneca-natal" src="images/caneca-natal03.png" alt="Mockup de Caneca de Natal">
-            <img class="caneca-natal" src="images/caneca-natal04.png" alt="Mockup de Caneca de Natal">        
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="slide first">
+                    <img class="item" src="images/caneca-natal01.png" alt="Mockup de Caneca de Natal">
+                </div>   
+                <div class="slide">
+                    <img class="item" src="images/caneca-natal03.png" alt="Mockup de Caneca de Natal">
+                </div>
+                <div class="slide">
+                    <img class="item" src="images/caneca-natal04.png" alt="Mockup de Caneca de Natal">        
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+                
         </div>
+
         <p>Imagens meramente ilustrativas**</p>
     </section>
     <section class="sobre-nos">
         <h1>Sobre nós</h1>
-        <p>Fazemos o processo de sublimação em canecas personalizadas a seu gosto. </p>
-        
-        <p>Estamos situados em Marechal Deodoro/AL e fazemos entrega em toda Maceió. </p>  
+        <div class="sobre-nos-itens">
+            <img class="icon" src="images/coffee-cup-icon.png" alt="Ícone de caneca"><p>Fazemos o processo de sublimação em canecas personalizadas a seu gosto. </p>
+        </div>
+        <div class="sobre-nos-itens sobre-nos-location">
+            <img class="icon icon-location" src="images/location-icon.png" alt="Ícone de localização"><p class="location-info">Estamos situados em Marechal Deodoro/AL e fazemos entrega em toda Maceió. </p>  
+        </div>
     </section>
     <footer class="footer">
         <div class="left-container">
